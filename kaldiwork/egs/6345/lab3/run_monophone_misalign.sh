@@ -20,12 +20,17 @@ train_nj=4
 decode_nj=4
 
 AM_dir=mono_t9
+one=$1
+two=$2
+three=$3
+four=$4
+five=$5
 
 echo ============================================================================
 echo "                     MonoPhone Training & Decoding                        "
 echo ============================================================================
 
-steps/train_mono.sh  --nj "$train_nj" --cmd "$train_cmd"  --realign_iters="$@" data/train_1k data/lang exp/"$AM_dir"
+steps/train_mono.sh  --nj "$train_nj" --cmd "$train_cmd"  --realign_iters="$one $two $three $four $five" data/train_1k data/lang exp/"$AM_dir"
 
 utils/mkgraph.sh --mono data/lang_test_bg exp/"$AM_dir" exp/"$AM_dir"/graph
 
