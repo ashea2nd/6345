@@ -27,14 +27,13 @@ echo "                     MonoPhone Training & Decoding                        
 echo ============================================================================
 
 utils/subset_data_dir.sh data/train "$1" data/train_1k
-utils/subset_data_dir.sh data/train "$1" data/test_t7
 
 steps/train_mono.sh  --nj "$train_nj" --cmd "$train_cmd" data/train_1k data/lang exp/"$AM_dir"
 
 utils/mkgraph.sh --mono data/lang_test_bg exp/"$AM_dir" exp/"$AM_dir"/graph
 
 steps/decode.sh --nj "$decode_nj" --cmd "$decode_cmd" \
- exp/"$AM_dir"/graph data/test_t7 exp/"$AM_dir"/decode_test
+ exp/"$AM_dir"/graph data/train_1k exp/"$AM_dir"/decode_test
 
 bash RESULTS "$AM_dir"
 
