@@ -26,7 +26,7 @@ echo ===========================================================================
 echo "                     MonoPhone Training & Decoding                        "
 echo ============================================================================
 
-utils/subset_data_dir.sh data/test $1 data/test_100
+utils/subset_data_dir.sh data/test "$1" data/test_100
 
 steps/train_mono.sh  --nj "$train_nj" --cmd "$train_cmd" data/train_1k data/lang exp/"$AM_dir"
 
