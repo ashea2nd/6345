@@ -1,0 +1,58 @@
+# lattice-best-path --lm-scale=2 --word-symbol-table=exp/tri1/graph/words.txt --verbose=2 "ark:gunzip -c exp/tri1/decode_test/lat.2.gz|" ark,t:exp/tri1/decode_test/scoring/2.2.tra 
+# Started at Sun Feb 24 18:15:43 EST 2019
+#
+lattice-best-path --lm-scale=2 --word-symbol-table=exp/tri1/graph/words.txt --verbose=2 'ark:gunzip -c exp/tri1/decode_test/lat.2.gz|' ark,t:exp/tri1/decode_test/scoring/2.2.tra 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpas0_si944, best cost 216.792 + 24141.5 = 24358.3 over 234 frames.
+fpas0_si944 sil ix cl hh er f ao r l ih z r eh n cl t ix vcl d er r ay en ax z epi dh iy cl p ae n iy vcl d sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpas0_sx134, best cost 290.974 + 28488 = 28779 over 292 frames.
+fpas0_sx134 sil d ix s ih m r ix ng vcl jh ae n y uw w ey eh r ix n ay s epi m aa n epi s cl s ix z cl p eh n ih m ay iy ix m iy sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpas0_sx314, best cost 264.814 + 29008.9 = 29273.7 over 292 frames.
+fpas0_sx314 sil iy s cl p iy vcl b el ao r m ao r vcl jh ah dx er s dh er v iy ng n ow n iy vcl d f er w eh l f ey er sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpkt0_si1538, best cost 307.763 + 32141.3 = 32449.1 over 311 frames.
+fpkt0_si1538 sil d ih cl k eh r ih vcl jh cl k r ih n jh vcl b ay uw n s cl t ih m w ay vcl d z cl p ah cl t r ih ng vcl t uw dx ih vcl g l ih n n sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpkt0_si2168, best cost 175.052 + 19889.3 = 20064.4 over 196 frames.
+fpkt0_si2168 sil dh ey n m ih cl k ae z cl k en f ao r m ax s l ah cl n vcl g eh vcl sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpkt0_sx188, best cost 241.319 + 22110.4 = 22351.7 over 220 frames.
+fpkt0_sx188 sil k w ax l aa f vcl d er r ay s iy l ax n l ih n m ih dx ih dx ih cl k s cl p eh cl s ix cl k ae l cl sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpkt0_sx8, best cost 179.959 + 26824.9 = 27004.8 over 280 frames.
+fpkt0_sx8 sil w ay y eh l er w er iy ow v er s ih l iy aa ay vcl d ax n z sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance fpkt0_sx98, best cost 164.342 + 18809.3 = 18973.6 over 183 frames.
+fpkt0_sx98 sil g eh s th ix cl k w eh sh ix n f r ah n ix ng ae m cl t s er vcl sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mbpm0_si1584, best cost 326.849 + 38159.7 = 38486.5 over 378 frames.
+mbpm0_si1584 sil r eh cl t er r ix z ao f ix n cl k ih r iy ih s z aa f ix n cl t ah cl d ix vcl d eh s cl k w eh s cl t ix n s cl p ix dx iy n eh v r vcl d ih vcl en sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mbpm0_sx227, best cost 163.495 + 17521.2 = 17684.7 over 175 frames.
+mbpm0_sx227 sil ix cl t eh l th er vcl d ix cl k ax cl g ix f aa cl ch er r er sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mbpm0_sx317, best cost 197.734 + 22610.3 = 22808 over 231 frames.
+mbpm0_sx317 sil dh ix cl k r eh n vcl b er ix vcl b aa vcl g ix cl s vcl g r ey cl p er dx iy ix n l ao dx ax m sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mbpm0_sx47, best cost 182.106 + 21848.4 = 22030.5 over 214 frames.
+mbpm0_sx47 sil m aa l m s cl t ax l ix vcl d ih s l ay cl k z ae cl dh ax cl t ay z er z sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mcmj0_si602, best cost 364.119 + 38782.6 = 39146.7 over 387 frames.
+mcmj0_si602 sil dh ix cl t ih sh uh cl s er v ih r ih s l aa n ax aw l n ix n w iy vcl d ix r ah m cl k ih n cl s ax m ey ix cl s ih m er n z eh n iy m ao r sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mcmj0_sx104, best cost 125.796 + 18982.5 = 19108.3 over 196 frames.
+mcmj0_sx104 sil hh iy s cl t eh l ah vcl t ay m f ax n ax vcl b eh vcl er sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mcmj0_sx194, best cost 154.961 + 18942.1 = 19097 over 193 frames.
+mcmj0_sx194 sil dh ey ix n jh oy iy ey ax cl w ah n ay er vcl d ih sh ix n sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mdab0_si1039, best cost 395.101 + 39934.9 = 40330 over 392 frames.
+mdab0_si1039 sil hh iy hh y eh s epi n eh v er dx ax m s eh l f cl dh ax dx ix ng v iy n cl f el vcl w uh cl ch cl t s vcl b iy hh ey dx ix vcl d sil w cl t ix dh ax s hh ae l ax s sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mdab0_si1669, best cost 187.324 + 19967.5 = 20154.8 over 204 frames.
+mdab0_si1669 sil p y uw cl k s ay dx ix vcl d ix n vcl d ax dx ix vcl d ax dx ax f ay er ix s ao f sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mdab0_sx139, best cost 252.645 + 23922.5 = 24175.2 over 234 frames.
+mdab0_sx139 sil dh ax vcl b aa ng k ax l ow l ax s cl p l ax s en l iy s ix cl ch w ix dx ix vcl b y ix m ax sh ao r sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mdab0_sx409, best cost 261.75 + 28714.8 = 28976.5 over 286 frames.
+mdab0_sx409 sil b iy dx iy ng k s cl p uh dx ix vcl jh epi n ay y ix l iy vcl k r iy s ix s cl t r ix th epi r ay cl t uw ax s l iy sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mdab0_sx49, best cost 220.045 + 21994.4 = 22214.5 over 218 frames.
+mdab0_sx49 sil eh cl t epi w ay l ix cl t ax m uh s epi w ax l f cl p l iy w el n ah sh ax vcl b l iy sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mgrt0_si2080, best cost 161.576 + 22479.8 = 22641.4 over 229 frames.
+mgrt0_si2080 sil hh iy l uh vcl n ah cl k eh r iy ix vcl b r iy f sil k ey cl k s sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mgrt0_si820, best cost 458.759 + 60112.7 = 60571.4 over 610 frames.
+mgrt0_si820 sil b l ay v ae n cl t hh w ax m z f iy ix l dh ae cl m ae ng cl eh dx ix n cl f ao r s ix z sil hh aa r ix z cl ch eh n r el sil hh ae z ix l ae cl t er cl k el f ao r s ax s sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mgrt0_sx100, best cost 265.633 + 45978.8 = 46244.4 over 491 frames.
+mgrt0_sx100 sil p r ay vcl jh ih vcl d ax dh eh l ax m eh n cl hh w ax s cl p er s iy dx iy ng cl t hh y uw s l ow l iy sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mgrt0_sx190, best cost 267.107 + 28013.8 = 28280.9 over 287 frames.
+mgrt0_sx190 sil cl s er ix z ax cl k ax l ao l s l ao hh ae f cl sh er ay cl hh ae vcl d ix y l ey ow sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:99) For utterance mgrt0_sx370, best cost 245.925 + 32416.8 = 32662.7 over 334 frames.
+mgrt0_sx370 sil dh ax m oy s cl p r aa l ax m vcl g r ow ow z epi m ao r l ax n ow oy ih ng iy cl ch vcl d ey ey sil 
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:124) Overall cost per frame is 100.165 = 0.859196 [graph] + 99.3061 [acoustic] over 7067 frames.
+LOG (lattice-best-path[5.5.195~1-6f565]:main():lattice-best-path.cc:128) Done 25 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Feb 24 18:15:43 EST 2019, elapsed time 0 seconds

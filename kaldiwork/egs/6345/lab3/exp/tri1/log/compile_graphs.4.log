@@ -1,0 +1,7 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1/tree exp/tri1/1.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 38 -f 2- data/lang/words.txt < data/train_1k/split4/4/text |" "ark:|gzip -c >exp/tri1/fsts.4.gz" 
+# Started at Sun Feb 24 18:13:15 EST 2019
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1/tree exp/tri1/1.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 38 -f 2- data/lang/words.txt < data/train_1k/split4/4/text |' 'ark:|gzip -c >exp/tri1/fsts.4.gz' 
+LOG (compile-train-graphs[5.5.195~1-6f565]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 250 graphs, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Feb 24 18:13:16 EST 2019, elapsed time 1 seconds
