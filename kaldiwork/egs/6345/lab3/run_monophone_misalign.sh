@@ -30,7 +30,7 @@ echo ===========================================================================
 echo "                     MonoPhone Training & Decoding                        "
 echo ============================================================================
 
-steps/train_mono.sh  --nj "$train_nj" --cmd "$train_cmd"  --realign_iters="'$one' '$two' '$three' '$four' '$five'" data/train_1k data/lang exp/"$AM_dir"
+steps/train_mono.sh  --nj "$train_nj" --cmd "$train_cmd"  --realign_iters=""$one $two $three $four $five"" data/train_1k data/lang exp/"$AM_dir"
 
 utils/mkgraph.sh --mono data/lang_test_bg exp/"$AM_dir" exp/"$AM_dir"/graph
 
