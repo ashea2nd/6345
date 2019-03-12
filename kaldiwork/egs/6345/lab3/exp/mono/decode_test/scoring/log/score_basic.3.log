@@ -1,5 +1,0 @@
-# cat exp/mono/decode_test/scoring/3.tra | utils/int2sym.pl -f 2- exp/mono/graph/words.txt | local/timit_norm_trans.pl -i - -m conf/phones.60-48-39.map -from 48 -to 39 | compute-wer --text --mode=all ark:exp/mono/decode_test/scoring/test_filt.txt ark,p:- >& exp/mono/decode_test/wer_3 
-# Started at Sun Feb 24 18:59:31 EST 2019
-#
-# Accounting: time=1 threads=1
-# Ended (code 0) at Sun Feb 24 18:59:32 EST 2019, elapsed time 1 seconds

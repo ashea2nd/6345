@@ -17,7 +17,6 @@ totgauss=1000 # Target #Gaussians.
 careful=false
 boost_silence=1.0 # Factor by which to boost silence likelihoods in alignment
 realign_iters="1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 23 26 29 32 35 38";
-# realign_iters="1";
 config= # name of config file.
 stage=-4
 power=0.25 # exponent to determine number of gaussians from occurrence counts
@@ -151,3 +150,4 @@ exit 0
 
 # example of showing the alignments:
 # show-alignments data/lang/phones.txt $dir/30.mdl "ark:gunzip -c $dir/ali.0.gz|" | head -4
+
