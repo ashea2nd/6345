@@ -1,0 +1,17 @@
+# gmm-acc-stats-ali exp/mono/33.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_1k/split4/2/utt2spk scp:data/train_1k/split4/2/cmvn.scp scp:data/train_1k/split4/2/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c exp/mono/ali.2.gz|" exp/mono/33.2.acc 
+# Started at Sun Feb 24 18:58:32 EST 2019
+#
+gmm-acc-stats-ali exp/mono/33.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_1k/split4/2/utt2spk scp:data/train_1k/split4/2/cmvn.scp scp:data/train_1k/split4/2/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.2.gz|' exp/mono/33.2.acc 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train_1k/split4/2/utt2spk scp:data/train_1k/split4/2/cmvn.scp scp:data/train_1k/split4/2/feats.scp ark:- 
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance madd0_sx448 avg. like is -97.7255 over 257 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance mcae0_sx7 avg. like is -94.4521 over 382 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance mded0_sx450 avg. like is -100.273 over 349 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance mdss1_si1713 avg. like is -95.375 over 149 frames.
+LOG (apply-cmvn[5.5.195~1-6f565]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 250 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance mgak0_sx46 avg. like is -99.4203 over 212 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:112) Done 250 files, 0 with errors.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -98.4634 over 72896 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Feb 24 18:58:33 EST 2019, elapsed time 1 seconds

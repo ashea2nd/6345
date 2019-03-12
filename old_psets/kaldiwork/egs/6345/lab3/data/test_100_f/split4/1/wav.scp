@@ -1,0 +1,8 @@
+fdhc0_si929 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr7/fdhc0/si929.wav |
+fdhc0_sx119 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr7/fdhc0/sx119.wav |
+fdhc0_sx29 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr7/fdhc0/sx29.wav |
+felc0_si1386 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr1/felc0/si1386.wav |
+felc0_si2016 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr1/felc0/si2016.wav |
+felc0_sx126 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr1/felc0/sx126.wav |
+felc0_sx36 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr1/felc0/sx36.wav |
+felc0_sx396 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr1/felc0/sx396.wav |

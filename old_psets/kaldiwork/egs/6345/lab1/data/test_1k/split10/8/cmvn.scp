@@ -1,0 +1,11 @@
+lp /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:10403
+lr /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:10533
+mc /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:10663
+mi /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:10793
+mj /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:10923
+ml /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:11053
+na /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:11183
+nk /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:11313
+nl /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:11443
+np /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:11573
+nt /home/ashea2nd/kaldiwork/egs/6345/lab1/feats/cmvn_test_1k.ark:11703

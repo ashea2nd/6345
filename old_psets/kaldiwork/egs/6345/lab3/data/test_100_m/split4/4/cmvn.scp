@@ -1,0 +1,4 @@
+mtas1 /home/ashea2nd/6345/kaldiwork/egs/6345/lab3/mfcc/cmvn_test_100.ark:4906
+mtls0 /home/ashea2nd/6345/kaldiwork/egs/6345/lab3/mfcc/cmvn_test_100.ark:5151
+mwbt0 /home/ashea2nd/6345/kaldiwork/egs/6345/lab3/mfcc/cmvn_test_100.ark:5396
+mwew0 /home/ashea2nd/6345/kaldiwork/egs/6345/lab3/mfcc/cmvn_test_100.ark:5641

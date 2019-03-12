@@ -1,0 +1,17 @@
+# gmm-acc-stats-ali exp/tri1/14.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_1k/split4/1/utt2spk scp:data/train_1k/split4/1/cmvn.scp scp:data/train_1k/split4/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,s,cs:gunzip -c exp/tri1/ali.1.gz|" exp/tri1/14.1.acc 
+# Started at Sun Feb 24 18:13:37 EST 2019
+#
+gmm-acc-stats-ali exp/tri1/14.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_1k/split4/1/utt2spk scp:data/train_1k/split4/1/cmvn.scp scp:data/train_1k/split4/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,s,cs:gunzip -c exp/tri1/ali.1.gz|' exp/tri1/14.1.acc 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train_1k/split4/1/utt2spk scp:data/train_1k/split4/1/cmvn.scp scp:data/train_1k/split4/1/feats.scp ark:- 
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance fcyl0_si667 avg. like is -96.2463 over 497 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance fhxs0_si2335 avg. like is -96.6005 over 262 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance flac0_si901 avg. like is -95.1692 over 175 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance fmpg0_sx342 avg. like is -93.393 over 435 frames.
+LOG (apply-cmvn[5.5.195~1-6f565]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 250 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance fsjk1_sx125 avg. like is -92.7612 over 225 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:112) Done 250 files, 0 with errors.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -95.7268 over 77056 frames.
+LOG (gmm-acc-stats-ali[5.5.195~1-6f565]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sun Feb 24 18:13:39 EST 2019, elapsed time 2 seconds

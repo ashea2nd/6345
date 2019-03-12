@@ -1,0 +1,5 @@
+# cat exp/mono0a/decode/scoring/9.tra | utils/int2sym.pl -f 2- exp/mono0a/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:data/test_1k/text ark,p:- >& exp/mono0a/decode/wer_9 
+# Started at Wed Feb 13 13:12:15 EST 2019
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Feb 13 13:12:15 EST 2019, elapsed time 0 seconds

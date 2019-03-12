@@ -1,0 +1,10 @@
+fmld0_si2185 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr8/fmld0/si2185.wav |
+fmld0_si822 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr8/fmld0/si822.wav |
+fmld0_sx115 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr8/fmld0/sx115.wav |
+fmld0_sx295 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr8/fmld0/sx295.wav |
+fmld0_sx385 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr8/fmld0/sx385.wav |
+fnlp0_si1938 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr5/fnlp0/si1938.wav |
+fnlp0_si678 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr5/fnlp0/si678.wav |
+fnlp0_sx228 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr5/fnlp0/sx228.wav |
+fnlp0_sx318 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr5/fnlp0/sx318.wav |
+fnlp0_sx48 /nobackup1c/users/mit-6345/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /nobackup1c/users/mit-6345/6345_data/timit/test/dr5/fnlp0/sx48.wav |

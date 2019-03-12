@@ -1,0 +1,64 @@
+# compute-plp-feats --verbose=2 --config=conf/plp.conf scp,p:exp/make_feats/test_1k/wav_test_1k.2.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/ashea2nd/kaldiwork/egs/6345/lab1/feats/raw_plp_test_1k.2.ark,/home/ashea2nd/kaldiwork/egs/6345/lab1/feats/raw_plp_test_1k.2.scp 
+# Started at Wed Feb 13 13:09:58 EST 2019
+#
+copy-feats --compress=true ark:- ark,scp:/home/ashea2nd/kaldiwork/egs/6345/lab1/feats/raw_plp_test_1k.2.ark,/home/ashea2nd/kaldiwork/egs/6345/lab1/feats/raw_plp_test_1k.2.scp 
+compute-plp-feats --verbose=2 --config=conf/plp.conf scp,p:exp/make_feats/test_1k/wav_test_1k.2.scp ark:- 
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key ba_o368a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key ba_z5672a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_1a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_2za
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_41a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_5811244a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_699a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_7a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_8zz7559a
+LOG (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:172) Processed 10 utterances
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_o5564a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bc_z549za
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_17592a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_4167478a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_551a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_68a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_793a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_8b
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_o3o8oo1a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key be_z5z3z86a
+LOG (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:172) Processed 20 utterances
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_17z5za
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_2a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_3b
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_5568a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_688a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_7a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_8b
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_o19a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bf_z451z95a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_196a
+LOG (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:172) Processed 30 utterances
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_2b
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_3za
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_52a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_668a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_7a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_8a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_9za
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bj_z343112a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_188a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_2a
+LOG (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:172) Processed 40 utterances
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_3a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_53oa
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_65a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_7782a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_8a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_9za
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bl_z1a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bm_1491zz3a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bm_27a
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bm_3o1o4a
+LOG (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:172) Processed 50 utterances
+VLOG[2] (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:173) Processed features for key bm_4b
+LOG (compute-plp-feats[5.5.195~1-6f565]:main():compute-plp-feats.cc:176)  Done 50 out of 50 utterances.
+LOG (copy-feats[5.5.195~1-6f565]:main():copy-feats.cc:143) Copied 50 feature matrices.
+# Accounting: time=12 threads=1
+# Ended (code 0) at Wed Feb 13 13:10:10 EST 2019, elapsed time 12 seconds

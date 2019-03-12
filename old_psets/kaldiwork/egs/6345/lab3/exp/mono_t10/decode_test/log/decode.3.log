@@ -1,0 +1,32 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono_t10/graph/words.txt exp/mono_t10/final.mdl exp/mono_t10/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_100_f/split4/3/utt2spk scp:data/test_100_f/split4/3/cmvn.scp scp:data/test_100_f/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono_t10/decode_test/lat.3.gz" 
+# Started at Mon Feb 25 15:35:47 EST 2019
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono_t10/graph/words.txt exp/mono_t10/final.mdl exp/mono_t10/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_100_f/split4/3/utt2spk scp:data/test_100_f/split4/3/cmvn.scp scp:data/test_100_f/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono_t10/decode_test/lat.3.gz' 
+apply-cmvn --utt2spk=ark:data/test_100_f/split4/3/utt2spk scp:data/test_100_f/split4/3/cmvn.scp scp:data/test_100_f/split4/3/feats.scp ark:- 
+add-deltas ark:- ark:- 
+fmld0_si2185 sil sh iy s ix cl ch er cl t ix vcl n ow vcl b el ax n z ix n cl sh r eh cl s epi w ae m vcl b ae cl k er vcl d sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fmld0_si2185 is -8.53995 over 356 frames.
+fmld0_si822 sil dh ax vcl b er vcl b ae cl sh ix n ey vcl b iy cl k r iy s cl t eh n iy ae cl t ey cl s eh cl t ax cl p er f r iy z vcl d ix s cl t er cl k sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fmld0_si822 is -8.74387 over 363 frames.
+fmld0_sx115 sil dh iy ix m ax n dh ix cl t ih cl k s ix cl k r aa cl k w ax z aa l ax vcl g ow sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fmld0_sx115 is -8.60493 over 237 frames.
+LOG (apply-cmvn[5.5.195~1-6f565]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 10 utterances, errors on 0
+fmld0_sx295 sil dh ix s cl k er cl k ah m s cl t ax m ao l hh eh v er r ey cl ch er m iy dx iy ix cl t uw vcl sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fmld0_sx295 is -8.58862 over 308 frames.
+fmld0_sx385 sil hh ix s ow dx er vcl b ow th ix z ix f er w ax vcl b er cl k ix n sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fmld0_sx385 is -8.85765 over 189 frames.
+fnlp0_si1938 sil b ay y uw w ih n eh z cl k l ah vcl jh ow cl p r ay cl t uw vcl d ix vcl d eh l vcl d w er sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fnlp0_si1938 is -8.47063 over 322 frames.
+fnlp0_si678 sil s ah v ay s ih m ih cl k ix n s ih dx ix vcl d sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fnlp0_si678 is -8.45801 over 203 frames.
+fnlp0_sx228 sil dh ix vcl d iy cl p l ey vcl b ow v er l eh cl dh iy eh s sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fnlp0_sx228 is -8.4251 over 227 frames.
+fnlp0_sx318 sil p l iy s cl t ih n m ah cl dh ax cl t ae dx ah z ah vcl b el f ao r f aa l s sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fnlp0_sx318 is -8.21784 over 371 frames.
+fnlp0_sx48 sil k eh m ah dh er aa vcl g r uw f r ah vcl b r ih ng ih n ix n hh ae dx ix cl k eh n cl s sil 
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fnlp0_sx48 is -8.53692 over 348 frames.
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:main():gmm-latgen-faster.cc:176) Time taken 2.77926s: real-time factor assuming 100 frames/sec is 0.0950498
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:main():gmm-latgen-faster.cc:179) Done 10 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.195~1-6f565]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.53273 over 2924 frames.
+# Accounting: time=3 threads=1
+# Ended (code 0) at Mon Feb 25 15:35:50 EST 2019, elapsed time 3 seconds

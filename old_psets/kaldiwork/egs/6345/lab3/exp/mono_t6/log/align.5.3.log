@@ -1,0 +1,28 @@
+# gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 exp/mono_t6/5.mdl - |" "ark:gunzip -c exp/mono_t6/fsts.3.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_1k/split4/3/utt2spk scp:data/train_1k/split4/3/cmvn.scp scp:data/train_1k/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,t:|gzip -c >exp/mono_t6/ali.3.gz" 
+# Started at Sun Feb 24 20:54:28 EST 2019
+#
+gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/mono_t6/5.mdl - |' 'ark:gunzip -c exp/mono_t6/fsts.3.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_1k/split4/3/utt2spk scp:data/train_1k/split4/3/cmvn.scp scp:data/train_1k/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,t:|gzip -c >exp/mono_t6/ali.3.gz' 
+gmm-boost-silence --boost=1.0 1 exp/mono_t6/5.mdl - 
+LOG (gmm-boost-silence[5.5.195~1-6f565]:main():gmm-boost-silence.cc:93) Boosted weights for 3 pdfs, by factor of 1
+LOG (gmm-boost-silence[5.5.195~1-6f565]:main():gmm-boost-silence.cc:103) Wrote model to -
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train_1k/split4/3/utt2spk scp:data/train_1k/split4/3/cmvn.scp scp:data/train_1k/split4/3/feats.scp ark:- 
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mhrm0_si958
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mjda0_sx221
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mjee0_sx427
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mjpm0_si1998
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mjrp0_sx135
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mkag0_sx30
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mkxl0_si1185
+LOG (apply-cmvn[5.5.195~1-6f565]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 13 utterances, errors on 0
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mmaa0_si845
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mmdb0_sx267
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mmsm0_sx386
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mpar0_si2206
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mppc0_sx152
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:127) mrdd0_sx330
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -102.538 over 3940 frames.
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:137) Retried 0 out of 13 utterances.
+LOG (gmm-align-compiled[5.5.195~1-6f565]:main():gmm-align-compiled.cc:139) Done 13, errors on 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Feb 24 20:54:29 EST 2019, elapsed time 1 seconds
